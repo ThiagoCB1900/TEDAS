@@ -134,19 +134,19 @@ class GA:
                 file.write("{}* Populacao:\n".format(num_populacao + 1))
                 nova_populacao = []
 
-                for i in range(0, self.num_individuos, 2):
+                for _ in range(self.num_individuos // 2):
                     pai, mae = self.selecionarPorTorneio(populacao)
                     filho, filha = self.fazerCrossover(pai, mae)
-                    filhos = self.mutar(filho, filha)
+                    irmaos = self.mutar(filho, filha)
 
-                    for j in range(2):
-                        file.write(str(filhos[j]))
+                    for irmao in irmaos:
+                        file.write(str(irmao))
 
-                        if filhos[j].retornarPerformance() > self.melhor_performance:
-                            self.melhor_performance = filhos[j].retornarPerformance()
-                            self.melhor_individuo = deepcopy(filhos[j])
+                        if irmao.retornarPerformance() > self.melhor_performance:
+                            self.melhor_performance = irmao.retornarPerformance()
+                            self.melhor_individuo = deepcopy(irmao)
 
-                    nova_populacao.extend(filhos)
+                    nova_populacao.extend(irmaos)
 
                 file.write('\nMelhores ' + str(self.melhor_individuo) + "\n")
                 populacao = nova_populacao
