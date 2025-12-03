@@ -1,9 +1,10 @@
 from genetic_algorithm import GA
 
-lista = ["KNeighborsClassifier", "RandomForestClassifier", "LogisticRegression",
-         "XGBClassifier", "LGBMClassifier", "CatBoostClassifier"]
+lista = ["RandomForestClassifier", "LogisticRegression", "XGBClassifier", "LGBMClassifier", "CatBoostClassifier"]
 
-GA.definirXY('Heart.parquet')
+GA.definirXY('datasets/mimic IV.parquet')
 
-ga = GA(10, 10, 10, lista[0])
-ga.executar()
+for item in lista:
+    print(item)
+    ga = GA(10, 10, item)
+    ga.executar()

@@ -12,8 +12,8 @@ class LR(Algoritmo):
     def definirMaximo(self):
         return [10, 500, 1, 1]
 
-    def gerarModelo(self, pos):
+    def gerarModelo(self, genes):
         solvers = ['liblinear', 'saga']
         penalties = ['l1', 'l2']
 
-        return LogisticRegression(C=pos[0], max_iter=pos[1], solver=solvers[pos[2]], penalty=penalties[pos[3]])
+        return LogisticRegression(C=genes[0], max_iter=genes[1], solver=solvers[genes[2]], penalty=penalties[genes[3]])

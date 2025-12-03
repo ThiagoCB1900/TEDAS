@@ -12,17 +12,17 @@ class XGB(Algoritmo):
     def definirMaximo(self):
         return [1000, 0.3, 12, 1, 1, 5, 3, 3, 10]
 
-    def gerarModelo(self, pos):
+    def gerarModelo(self, genes):
         return XGBClassifier(
-            n_estimators=pos[0],
-            learning_rate=pos[1],
-            max_depth=pos[2],
-            subsample=pos[3],
-            colsample_bytree=pos[4],
-            gamma=pos[5],
-            reg_lambda=pos[6],
-            reg_alpha=pos[7],
-            min_child_weight=pos[8],
+            n_estimators=genes[0],
+            learning_rate=genes[1],
+            max_depth=genes[2],
+            subsample=genes[3],
+            colsample_bytree=genes[4],
+            gamma=genes[5],
+            reg_lambda=genes[6],
+            reg_alpha=genes[7],
+            min_child_weight=genes[8],
             eval_metric="logloss",
             tree_method="hist",
             n_jobs=-1,

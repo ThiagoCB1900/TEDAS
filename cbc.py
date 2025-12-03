@@ -12,14 +12,14 @@ class CBC(Algoritmo):
     def definirMaximo(self):
         return [1500, 0.2, 10, 10, 5, 1]
 
-    def gerarModelo(self, pos):
+    def gerarModelo(self, genes):
         return CatBoostClassifier(
-            iterations=pos[0],
-            learning_rate=pos[1],
-            depth=pos[2],
-            l2_leaf_reg=pos[3],
-            random_strength=pos[4],
-            bagging_temperature=pos[5],
+            iterations=genes[0],
+            learning_rate=genes[1],
+            depth=genes[2],
+            l2_leaf_reg=genes[3],
+            random_strength=genes[4],
+            bagging_temperature=genes[5],
             task_type="CPU",
             thread_count=-1,
             verbose=False,

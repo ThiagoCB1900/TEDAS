@@ -12,15 +12,15 @@ class RFC(Algoritmo):
     def definirMaximo(self):
         return [400, 25, 10, 5, 2]
 
-    def gerarModelo(self, pos):
+    def gerarModelo(self, genes):
         max_features_list = ["sqrt", "log2", 0.8]
 
         return RandomForestClassifier(
-            n_estimators=pos[0],
-            max_depth=pos[1],
-            min_samples_split=pos[2],
-            min_samples_leaf=pos[3],
-            max_features=max_features_list[pos[4]],
+            n_estimators=genes[0],
+            max_depth=genes[1],
+            min_samples_split=genes[2],
+            min_samples_leaf=genes[3],
+            max_features=max_features_list[genes[4]],
             n_jobs=-1,
             class_weight="balanced",
             bootstrap=True

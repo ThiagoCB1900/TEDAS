@@ -1,9 +1,9 @@
 from sklearn.metrics import accuracy_score, precision_score, recall_score
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
+from random import randint, uniform
 from individuo import Individuo
 from pandas import read_parquet
-from random import randint
 from copy import deepcopy
 
 from logistic_regression import LR
@@ -39,14 +39,16 @@ class GA:
     x_teste = None
     y_teste = None
 
-    def __init__(self, num_individuos, num_populacoes, chance_de_mutar, tipo_algoritmo):
+    def __init__(self, num_individuos, num_populacoes, tipo_algoritmo):
         self.num_individuos = num_individuos
         self.num_populacoes = num_populacoes
-        self.chance_de_mutar = chance_de_mutar
         self.algoritmo = definirAlgoritmo(tipo_algoritmo)
-        self.qtd_cromossomos = self.algoritmo.qtd_cromossomos
+        self.qtd_genes = self.algoritmo.qtd_genes
+        self.chance_de_mutar = 1 / self.qtd_genes
         self.melhor_individuo = None
-        self.melhor_performance = 0
+
+        if num_individuos % 2 == 1:
+            self.num_individuos += 1
 
     @staticmethod
     def definirXY(endereco_parquet):
@@ -69,18 +71,20 @@ class GA:
         populacao = []
 
         for _ in range(self.num_individuos):
-            populacao.append(Individuo(self.algoritmo.gerarCromossomos()))
+            populacao.append(Individuo(self.algoritmo.gerarCromossomo()))
 
         return populacao
 
     def ajustarMetricas(self, individuo):
-        modelo = self.algoritmo.gerarModelo(individuo.cromossomos)
+        modelo = self.algoritmo.gerarModelo(individuo.cromossomo)
         modelo.fit(GA.x_treinamento, GA.y_treinamento)
         previsoes = modelo.predict(GA.x_validacao)
 
         individuo.acuracia = round(accuracy_score(GA.y_validacao, previsoes) * 100, 1)
         individuo.precisao = round(precision_score(GA.y_validacao, previsoes, zero_division=0) * 100, 1)
         individuo.recall = round(recall_score(GA.y_validacao, previsoes, zero_division=0) * 100, 1)
+
+        individuo.performance = individuo.retornarPerformance()
 
     def definirIndividuosTorneio(self, populacao):
         individuos = []
@@ -93,12 +97,12 @@ class GA:
     def selecionarPorTorneio(self, populacao):
         pai1, pai2, mae1, mae2 = self.definirIndividuosTorneio(populacao)
 
-        if pai1.retornarPerformance() > pai2.retornarPerformance():
+        if pai1.performance > pai2.performance:
             pai = pai1
         else:
             pai = pai2
 
-        if mae1.retornarPerformance() > mae2.retornarPerformance():
+        if mae1.performance > mae2.performance:
             mae = mae1
         else:
             mae = mae2
@@ -106,30 +110,49 @@ class GA:
         return deepcopy(pai), deepcopy(mae)
 
     def fazerCrossover(self, pai, mae):
-        for i in range(randint(1, self.qtd_cromossomos)):
-            pai.cromossomos[i], mae.cromossomos[i] = mae.cromossomos[i], pai.cromossomos[i]
+        indices = list(range(self.qtd_genes))
+
+        for _ in range(randint(1, self.qtd_genes - 1)):
+            del indices[randint(0, len(indices) - 1)]
+
+        for i in indices:
+            pai.cromossomo[i], mae.cromossomo[i] = mae.cromossomo[i], pai.cromossomo[i]
 
         return pai, mae
 
     def mutar(self, filho, filha):
-        for i in range(self.qtd_cromossomos):
-            if randint(1, 100) <= self.chance_de_mutar:
-                filho.cromossomos[i] = self.algoritmo.gerarCromossomo(i)
-            if randint(1, 100) <= self.chance_de_mutar:
-                filha.cromossomos[i] = self.algoritmo.gerarCromossomo(i)
+        for i in range(self.qtd_genes):
+            if uniform(0, 1) <= self.chance_de_mutar:
+                filho.cromossomo[i] = self.algoritmo.gerarGene(i)
+            if uniform(0, 1) <= self.chance_de_mutar:
+                filha.cromossomo[i] = self.algoritmo.gerarGene(i)
 
         self.ajustarMetricas(filho)
         self.ajustarMetricas(filha)
 
         return [filho, filha]
 
+    def avaliarMelhorNoTeste(self, file):
+        modelo = self.algoritmo.gerarModelo(self.melhor_individuo.cromossomo)
+        modelo.fit(GA.x_treinamento, GA.y_treinamento)
+        previsoes = modelo.predict(GA.x_teste)
+
+        acuracia = round(accuracy_score(GA.y_teste, previsoes) * 100, 1)
+        precisao = round(precision_score(GA.y_teste, previsoes, zero_division=0) * 100, 1)
+        recall = round(recall_score(GA.y_teste, previsoes, zero_division=0) * 100, 1)
+        media = round((acuracia + 2 * precisao + 3 * recall) / 6, 1)
+
+        file.write("\nPerformance no Teste -> Acuracia: {}%, Precisao: {}%, Recall: {}%, Media: {}%".
+                   format(acuracia, precisao, recall, media))
+
     def executar(self):
+        self.melhor_individuo = Individuo(None)
         populacao = self.gerarPopulacao()
 
         for individuo in populacao:
             self.ajustarMetricas(individuo)
 
-        with open(str(self.algoritmo) + ".txt", "w") as file:
+        with open("resultados/" + str(self.algoritmo) + ".txt", "w") as file:
             for num_populacao in range(self.num_populacoes):
                 file.write("{}* Populacao:\n".format(num_populacao + 1))
                 nova_populacao = []
@@ -140,13 +163,14 @@ class GA:
                     irmaos = self.mutar(filho, filha)
 
                     for irmao in irmaos:
-                        file.write(str(irmao))
+                        file.write(str(irmao) + '\n')
 
-                        if irmao.retornarPerformance() > self.melhor_performance:
-                            self.melhor_performance = irmao.retornarPerformance()
+                        if irmao.performance > self.melhor_individuo.performance:
                             self.melhor_individuo = deepcopy(irmao)
 
                     nova_populacao.extend(irmaos)
 
-                file.write('\nMelhores ' + str(self.melhor_individuo) + "\n")
+                file.write('\nMelhor ' + str(self.melhor_individuo) + "\n\n")
                 populacao = nova_populacao
+
+            self.avaliarMelhorNoTeste(file)

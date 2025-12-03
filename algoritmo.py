@@ -6,7 +6,7 @@ class Algoritmo(ABC):
     def __init__(self):
         self.min = self.definirMinimo()
         self.max = self.definirMaximo()
-        self.qtd_cromossomos = len(self.max)
+        self.qtd_genes = len(self.max)
         self.indices_float = self.definirIndices()
 
     @abstractmethod
@@ -28,24 +28,24 @@ class Algoritmo(ABC):
     def definirIndices(self):
         indices = []
 
-        for i in range(self.qtd_cromossomos):
+        for i in range(self.qtd_genes):
             if not isinstance(self.min[i], int):
                 indices.append(i)
 
         return indices
 
-    def gerarCromossomos(self):
-        cromossomos = []
+    def gerarCromossomo(self):
+        cromossomo = []
 
-        for i in range(self.qtd_cromossomos):
+        for i in range(self.qtd_genes):
             if i in self.indices_float:
-                cromossomos.append(round(uniform(self.min[i], self.max[i]), 4))
+                cromossomo.append(round(uniform(self.min[i], self.max[i]), 4))
             else:
-                cromossomos.append(randint(self.min[i], self.max[i]))
+                cromossomo.append(randint(self.min[i], self.max[i]))
 
-        return cromossomos
+        return cromossomo
 
-    def gerarCromossomo(self, i):
+    def gerarGene(self, i):
         if i in self.indices_float:
             return round(uniform(self.min[i], self.max[i]), 4)
 

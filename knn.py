@@ -12,9 +12,9 @@ class KNN(Algoritmo):
     def definirMaximo(self):
         return [30, 1, 2, 100]
 
-    def gerarModelo(self, pos):
+    def gerarModelo(self, genes):
         lista_weights = ['uniform', 'distance']
         lista_metric = ['euclidean', 'manhattan', 'minkowski']
 
-        return KNeighborsClassifier(n_neighbors=pos[0], weights=lista_weights[pos[1]],
-                                    metric=lista_metric[pos[2]], leaf_size=pos[3])
+        return KNeighborsClassifier(n_neighbors=genes[0], weights=lista_weights[genes[1]],
+                                    metric=lista_metric[genes[2]], leaf_size=genes[3], n_jobs=-1)
