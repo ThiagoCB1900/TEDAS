@@ -1,0 +1,142 @@
+1* Populacao:
+Cromossomo: [272, 0.0079, 9, 0.1899, 1.0556, 0.9103] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [1325, 0.1901, 3, 3.6309, 1.2063, 0.1111] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [250, 0.1569, 3, 0.1899, 1.0046, 0.3831] -> Acuracia: 80.0%, Precisao: 78.6%, Recall: 88.0%, Performance: 82.2%
+Cromossomo: [1325, 0.0079, 9, 8.8023, 3.6703, 0.3054] -> Acuracia: 82.2%, Precisao: 79.3%, Recall: 92.0%, Performance: 84.5%
+Cromossomo: [939, 0.1901, 3, 9.294, 1.2063, 0.9103] -> Acuracia: 80.0%, Precisao: 78.6%, Recall: 88.0%, Performance: 82.2%
+Cromossomo: [1213, 0.133, 8, 3.6309, 0.1631, 0.3783] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [626, 0.133, 8, 1.7867, 0.1631, 0.3783] -> Acuracia: 80.0%, Precisao: 78.6%, Recall: 88.0%, Performance: 82.2%
+Cromossomo: [1325, 0.1569, 9, 0.1899, 1.5883, 0.1111] -> Acuracia: 75.6%, Precisao: 75.0%, Recall: 84.0%, Performance: 78.2%
+Cromossomo: [1059, 0.0395, 3, 8.2171, 3.1765, 0.3173] -> Acuracia: 84.4%, Precisao: 82.1%, Recall: 92.0%, Performance: 86.2%
+Cromossomo: [248, 0.1664, 3, 7.2737, 0.1005, 0.3268] -> Acuracia: 84.4%, Precisao: 82.1%, Recall: 92.0%, Performance: 86.2%
+
+Melhor Cromossomo: [1059, 0.0395, 3, 8.2171, 3.1765, 0.3173] -> Acuracia: 84.4%, Precisao: 82.1%, Recall: 92.0%, Performance: 86.2%
+
+2* Populacao:
+Cromossomo: [248, 0.1901, 3, 3.6309, 1.2063, 0.3268] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [1325, 0.1664, 3, 7.2737, 0.1005, 0.6359] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [1325, 0.0916, 9, 7.2737, 3.6703, 0.3054] -> Acuracia: 84.4%, Precisao: 82.1%, Recall: 92.0%, Performance: 86.2%
+Cromossomo: [248, 0.0079, 3, 8.8023, 0.1005, 0.3268] -> Acuracia: 75.6%, Precisao: 76.9%, Recall: 80.0%, Performance: 77.5%
+Cromossomo: [248, 0.1664, 3, 3.6309, 0.1005, 0.3268] -> Acuracia: 84.4%, Precisao: 84.6%, Recall: 88.0%, Performance: 85.7%
+Cromossomo: [1325, 0.1901, 3, 7.2737, 1.2063, 0.1111] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [882, 0.133, 8, 1.7867, 0.1631, 0.3783] -> Acuracia: 80.0%, Precisao: 78.6%, Recall: 88.0%, Performance: 82.2%
+Cromossomo: [626, 0.0079, 9, 8.8023, 3.6703, 0.3054] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [1059, 0.133, 8, 8.2171, 3.1765, 0.3783] -> Acuracia: 80.0%, Precisao: 78.6%, Recall: 88.0%, Performance: 82.2%
+Cromossomo: [1213, 0.0149, 8, 2.662, 0.1631, 0.3173] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+
+Melhor Cromossomo: [1059, 0.0395, 3, 8.2171, 3.1765, 0.3173] -> Acuracia: 84.4%, Precisao: 82.1%, Recall: 92.0%, Performance: 86.2%
+
+3* Populacao:
+Cromossomo: [1325, 0.0916, 6, 7.2737, 3.6703, 0.1111] -> Acuracia: 80.0%, Precisao: 80.8%, Recall: 84.0%, Performance: 81.6%
+Cromossomo: [1325, 0.1901, 8, 7.2737, 1.2063, 0.3054] -> Acuracia: 84.4%, Precisao: 84.6%, Recall: 88.0%, Performance: 85.7%
+Cromossomo: [882, 0.1664, 3, 1.7867, 0.1631, 0.3783] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [248, 0.133, 8, 3.6309, 0.1005, 0.3268] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [248, 0.062, 3, 3.6309, 1.2063, 0.3268] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [248, 0.1664, 8, 3.6309, 0.1005, 0.3268] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+Cromossomo: [1325, 0.1901, 9, 7.2737, 1.2063, 0.3054] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [1325, 0.0916, 3, 7.2737, 3.6703, 0.1111] -> Acuracia: 84.4%, Precisao: 84.6%, Recall: 88.0%, Performance: 85.7%
+Cromossomo: [626, 0.1901, 3, 8.8023, 1.2063, 0.3268] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [248, 0.0079, 9, 3.6309, 3.6703, 0.3054] -> Acuracia: 77.8%, Precisao: 75.9%, Recall: 88.0%, Performance: 80.6%
+
+Melhor Cromossomo: [248, 0.1664, 8, 3.6309, 0.1005, 0.3268] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+
+4* Populacao:
+Cromossomo: [1212, 0.1664, 3, 1.7867, 3.6703, 0.3783] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [786, 0.0916, 3, 7.2737, 0.1631, 0.1111] -> Acuracia: 80.0%, Precisao: 80.8%, Recall: 84.0%, Performance: 81.6%
+Cromossomo: [882, 0.1612, 8, 0.2037, 0.1005, 0.3268] -> Acuracia: 77.8%, Precisao: 77.8%, Recall: 84.0%, Performance: 79.9%
+Cromossomo: [248, 0.1664, 3, 3.6309, 0.1631, 0.3783] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [248, 0.062, 8, 8.7442, 0.1005, 0.3268] -> Acuracia: 84.4%, Precisao: 82.1%, Recall: 92.0%, Performance: 86.2%
+Cromossomo: [248, 0.1664, 3, 3.6309, 1.2063, 0.9258] -> Acuracia: 77.8%, Precisao: 77.8%, Recall: 84.0%, Performance: 79.9%
+Cromossomo: [882, 0.0358, 9, 7.2737, 0.1631, 0.3783] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+Cromossomo: [1325, 0.1664, 3, 1.7867, 1.2063, 0.3054] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [1325, 0.1901, 6, 7.2737, 0.1005, 0.3054] -> Acuracia: 77.8%, Precisao: 77.8%, Recall: 84.0%, Performance: 79.9%
+Cromossomo: [930, 0.133, 8, 3.6309, 1.2063, 0.3268] -> Acuracia: 77.8%, Precisao: 80.0%, Recall: 80.0%, Performance: 79.3%
+
+Melhor Cromossomo: [248, 0.1664, 8, 3.6309, 0.1005, 0.3268] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+
+5* Populacao:
+Cromossomo: [786, 0.1664, 5, 3.6309, 0.1631, 0.6125] -> Acuracia: 80.0%, Precisao: 78.6%, Recall: 88.0%, Performance: 82.2%
+Cromossomo: [1430, 0.0916, 3, 7.2737, 0.1631, 0.1111] -> Acuracia: 80.0%, Precisao: 80.8%, Recall: 84.0%, Performance: 81.6%
+Cromossomo: [477, 0.0358, 8, 7.2737, 0.1005, 0.3783] -> Acuracia: 84.4%, Precisao: 82.1%, Recall: 92.0%, Performance: 86.2%
+Cromossomo: [882, 0.062, 8, 6.2896, 0.1631, 0.3268] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [248, 0.1664, 8, 0.2037, 0.1005, 0.3783] -> Acuracia: 77.8%, Precisao: 77.8%, Recall: 84.0%, Performance: 79.9%
+Cromossomo: [882, 0.0269, 3, 1.821, 0.1631, 0.3268] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [248, 0.1664, 3, 3.6309, 0.1631, 0.3783] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [1325, 0.1901, 6, 7.2737, 0.1005, 0.5289] -> Acuracia: 77.8%, Precisao: 77.8%, Recall: 84.0%, Performance: 79.9%
+Cromossomo: [786, 0.1664, 3, 7.2737, 1.535, 0.3783] -> Acuracia: 80.0%, Precisao: 80.8%, Recall: 84.0%, Performance: 81.6%
+Cromossomo: [248, 0.0286, 3, 3.6309, 0.1631, 0.1111] -> Acuracia: 75.6%, Precisao: 76.9%, Recall: 80.0%, Performance: 77.5%
+
+Melhor Cromossomo: [248, 0.1664, 8, 3.6309, 0.1005, 0.3268] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+
+6* Populacao:
+Cromossomo: [248, 0.1664, 3, 3.6309, 1.535, 0.3783] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [786, 0.1664, 3, 7.2737, 0.1631, 0.3783] -> Acuracia: 82.2%, Precisao: 84.0%, Recall: 84.0%, Performance: 83.4%
+Cromossomo: [1325, 0.0358, 8, 7.2737, 0.1005, 0.3783] -> Acuracia: 84.4%, Precisao: 82.1%, Recall: 92.0%, Performance: 86.2%
+Cromossomo: [477, 0.1901, 9, 7.2737, 0.1005, 0.5289] -> Acuracia: 84.4%, Precisao: 82.1%, Recall: 92.0%, Performance: 86.2%
+Cromossomo: [882, 0.062, 8, 6.2896, 0.1005, 0.3268] -> Acuracia: 86.7%, Precisao: 85.2%, Recall: 92.0%, Performance: 88.0%
+Cromossomo: [971, 0.1901, 6, 7.2737, 0.1631, 0.0952] -> Acuracia: 80.0%, Precisao: 83.3%, Recall: 80.0%, Performance: 81.1%
+Cromossomo: [786, 0.1664, 3, 3.6309, 0.1631, 0.3783] -> Acuracia: 84.4%, Precisao: 84.6%, Recall: 88.0%, Performance: 85.7%
+Cromossomo: [477, 0.0358, 5, 7.2737, 0.1005, 0.4716] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [786, 0.1664, 9, 3.6309, 0.1631, 0.4022] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [248, 0.1664, 3, 3.6309, 0.1631, 0.6125] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+
+Melhor Cromossomo: [248, 0.1664, 8, 3.6309, 0.1005, 0.3268] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+
+7* Populacao:
+Cromossomo: [882, 0.1901, 9, 6.2896, 0.1005, 0.3268] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+Cromossomo: [477, 0.062, 8, 7.2737, 0.1005, 0.5289] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [786, 0.0358, 9, 7.2737, 0.1005, 0.2238] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+Cromossomo: [1325, 0.1664, 8, 3.6309, 0.1631, 0.5267] -> Acuracia: 80.0%, Precisao: 78.6%, Recall: 88.0%, Performance: 82.2%
+Cromossomo: [786, 0.1664, 3, 3.6309, 0.1631, 0.2899] -> Acuracia: 84.4%, Precisao: 84.6%, Recall: 88.0%, Performance: 85.7%
+Cromossomo: [786, 0.1664, 9, 3.6309, 0.1631, 0.7184] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [477, 0.1901, 9, 7.2737, 0.1005, 0.5289] -> Acuracia: 84.4%, Precisao: 82.1%, Recall: 92.0%, Performance: 86.2%
+Cromossomo: [477, 0.0358, 5, 9.0165, 0.1005, 0.4716] -> Acuracia: 84.4%, Precisao: 82.1%, Recall: 92.0%, Performance: 86.2%
+Cromossomo: [179, 0.062, 8, 6.2896, 0.1005, 0.3783] -> Acuracia: 80.0%, Precisao: 80.8%, Recall: 84.0%, Performance: 81.6%
+Cromossomo: [1174, 0.0358, 8, 7.2737, 0.1005, 0.3268] -> Acuracia: 84.4%, Precisao: 82.1%, Recall: 92.0%, Performance: 86.2%
+
+Melhor Cromossomo: [248, 0.1664, 8, 3.6309, 0.1005, 0.3268] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+
+8* Populacao:
+Cromossomo: [786, 0.1901, 9, 3.6309, 0.1631, 0.2899] -> Acuracia: 80.0%, Precisao: 80.8%, Recall: 84.0%, Performance: 81.6%
+Cromossomo: [882, 0.1664, 7, 6.2896, 0.1005, 0.2732] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [882, 0.0358, 9, 7.2737, 0.1005, 0.3268] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+Cromossomo: [1107, 0.1901, 8, 6.2896, 0.1005, 0.3268] -> Acuracia: 84.4%, Precisao: 82.1%, Recall: 92.0%, Performance: 86.2%
+Cromossomo: [1174, 0.1901, 9, 7.2737, 3.1426, 0.3268] -> Acuracia: 77.8%, Precisao: 77.8%, Recall: 84.0%, Performance: 79.9%
+Cromossomo: [882, 0.0358, 8, 6.2896, 0.1005, 0.4125] -> Acuracia: 84.4%, Precisao: 82.1%, Recall: 92.0%, Performance: 86.2%
+Cromossomo: [882, 0.0358, 9, 6.2896, 0.1005, 0.3268] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+Cromossomo: [786, 0.1901, 9, 5.8953, 0.1005, 0.2238] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+Cromossomo: [786, 0.0358, 9, 7.2737, 0.1005, 0.3268] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+Cromossomo: [882, 0.1305, 9, 2.9389, 1.7614, 0.2238] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+
+Melhor Cromossomo: [248, 0.1664, 8, 3.6309, 0.1005, 0.3268] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+
+9* Populacao:
+Cromossomo: [1107, 0.1901, 8, 2.621, 0.1005, 0.3268] -> Acuracia: 80.0%, Precisao: 80.8%, Recall: 84.0%, Performance: 81.6%
+Cromossomo: [786, 0.0358, 9, 6.2896, 0.1005, 0.5677] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+Cromossomo: [882, 0.1901, 9, 6.2896, 0.1005, 0.4125] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+Cromossomo: [786, 0.0358, 8, 3.6309, 0.1631, 0.2899] -> Acuracia: 84.4%, Precisao: 82.1%, Recall: 92.0%, Performance: 86.2%
+Cromossomo: [786, 0.1305, 9, 0.9859, 1.7614, 0.2238] -> Acuracia: 80.0%, Precisao: 78.6%, Recall: 88.0%, Performance: 82.2%
+Cromossomo: [882, 0.1296, 9, 6.9403, 0.1005, 0.959] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+Cromossomo: [882, 0.0358, 9, 7.2737, 0.1463, 0.3268] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+Cromossomo: [786, 0.0358, 9, 6.2896, 0.1005, 0.3268] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+Cromossomo: [882, 0.0358, 9, 6.2896, 0.1005, 0.3268] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+Cromossomo: [882, 0.1248, 9, 7.2737, 0.1005, 0.3268] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+
+Melhor Cromossomo: [248, 0.1664, 8, 3.6309, 0.1005, 0.3268] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+
+10* Populacao:
+Cromossomo: [786, 0.1901, 9, 9.6106, 0.1005, 0.2899] -> Acuracia: 84.4%, Precisao: 82.1%, Recall: 92.0%, Performance: 86.2%
+Cromossomo: [1097, 0.0358, 8, 3.6309, 0.1631, 0.4125] -> Acuracia: 84.4%, Precisao: 82.1%, Recall: 92.0%, Performance: 86.2%
+Cromossomo: [786, 0.0358, 9, 7.2737, 0.1005, 0.3268] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+Cromossomo: [882, 0.0358, 9, 6.2896, 0.1463, 0.5677] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+Cromossomo: [882, 0.1248, 9, 7.2737, 0.3278, 0.4576] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [309, 0.0358, 9, 0.7283, 0.1463, 0.3268] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [786, 0.0358, 9, 6.2896, 0.1631, 0.5677] -> Acuracia: 84.4%, Precisao: 82.1%, Recall: 92.0%, Performance: 86.2%
+Cromossomo: [786, 0.0358, 8, 3.6309, 0.1005, 0.2899] -> Acuracia: 82.2%, Precisao: 81.5%, Recall: 88.0%, Performance: 83.9%
+Cromossomo: [882, 0.1901, 9, 7.2737, 0.1005, 0.4125] -> Acuracia: 84.4%, Precisao: 82.1%, Recall: 92.0%, Performance: 86.2%
+Cromossomo: [882, 0.1248, 9, 6.2896, 0.1005, 0.3268] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+
+Melhor Cromossomo: [248, 0.1664, 8, 3.6309, 0.1005, 0.3268] -> Acuracia: 86.7%, Precisao: 82.8%, Recall: 96.0%, Performance: 88.5%
+
+
+Performance no Teste -> Acuracia: 78.3%, Precisao: 77.8%, Recall: 84.0%, Media: 81.0%
