@@ -1,6 +1,6 @@
 from genetic_algorithm import GA
 
-lista = ["RandomForestClassifier", "LogisticRegression", "XGBClassifier", "LGBMClassifier", "CatBoostClassifier"]
+lista = ["XGBClassifier", "LGBMClassifier", "CatBoostClassifier"]
 
 GA.definirXY('datasets/mimic IV.parquet')
 
