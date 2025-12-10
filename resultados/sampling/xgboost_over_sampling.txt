@@ -1,0 +1,142 @@
+1* Populacao:
+Genes: [832, 0.2267, 7, 0.6045, 0.7181, 0, 1, 3, 10] -> Acuracia: 96.3%, Precisao: 93.3%, Recall: 92.0%, Media: 93.8%
+Genes: [105, 0.174, 6, 0.644, 0.5481, 5, 1, 1, 3] -> Acuracia: 81.2%, Precisao: 65.8%, Recall: 70.0%, Media: 71.8%
+Genes: [608, 0.1215, 3, 0.9325, 0.7684, 5, 0, 1, 7] -> Acuracia: 80.8%, Precisao: 64.9%, Recall: 68.8%, Media: 70.9%
+Genes: [677, 0.2488, 5, 0.8065, 0.9673, 1, 1, 1, 10] -> Acuracia: 89.1%, Precisao: 78.2%, Recall: 78.9%, Media: 81.8%
+Genes: [287, 0.0659, 3, 0.5933, 0.6953, 2, 2, 0, 8] -> Acuracia: 77.4%, Precisao: 63.3%, Recall: 70.1%, Media: 69.8%
+Genes: [487, 0.1992, 11, 0.7796, 0.842, 3, 2, 2, 2] -> Acuracia: 95.6%, Precisao: 92.0%, Recall: 90.3%, Media: 92.6%
+Genes: [765, 0.1839, 5, 0.8192, 0.5095, 4, 2, 2, 8] -> Acuracia: 85.9%, Precisao: 72.3%, Recall: 73.8%, Media: 76.9%
+Genes: [505, 0.2903, 12, 0.6034, 0.5455, 0, 0, 1, 4] -> Acuracia: 98.9%, Precisao: 98.6%, Recall: 97.2%, Media: 98.2%
+Genes: [754, 0.0526, 12, 0.6122, 0.791, 5, 3, 1, 6] -> Acuracia: 92.5%, Precisao: 85.3%, Recall: 84.6%, Media: 87.3%
+Genes: [606, 0.2824, 11, 0.7857, 0.974, 1, 3, 1, 10] -> Acuracia: 98.1%, Precisao: 96.9%, Recall: 95.3%, Media: 96.8%
+
+Melhores Genes: [505, 0.2903, 12, 0.6034, 0.5455, 0, 0, 1, 4] -> Acuracia: 98.9%, Precisao: 98.6%, Recall: 97.2%, Media: 98.2%
+
+2* Populacao:
+Genes: [487, 0.2824, 11, 0.7796, 0.974, 1, 3, 2, 10] -> Acuracia: 97.9%, Precisao: 96.6%, Recall: 95.1%, Media: 96.5%
+Genes: [606, 0.1992, 11, 0.7857, 0.842, 3, 2, 1, 2] -> Acuracia: 95.8%, Precisao: 92.3%, Recall: 90.7%, Media: 92.9%
+Genes: [652, 0.2903, 11, 0.6034, 0.842, 0, 2, 1, 4] -> Acuracia: 99.0%, Precisao: 98.7%, Recall: 97.4%, Media: 98.4%
+Genes: [487, 0.1992, 12, 0.7796, 0.5455, 3, 0, 2, 1] -> Acuracia: 96.1%, Precisao: 93.0%, Recall: 91.2%, Media: 93.4%
+Genes: [505, 0.2824, 12, 0.6034, 0.5455, 0, 0, 1, 10] -> Acuracia: 98.7%, Precisao: 98.0%, Recall: 96.6%, Media: 97.8%
+Genes: [606, 0.2903, 11, 0.7857, 0.974, 1, 3, 1, 10] -> Acuracia: 98.0%, Precisao: 96.8%, Recall: 95.1%, Media: 96.6%
+Genes: [754, 0.0526, 5, 0.6122, 0.9673, 1, 1, 3, 10] -> Acuracia: 82.5%, Precisao: 67.2%, Recall: 70.7%, Media: 72.9%
+Genes: [677, 0.2488, 12, 0.8065, 0.791, 1, 3, 1, 6] -> Acuracia: 98.1%, Precisao: 97.0%, Recall: 95.3%, Media: 96.8%
+Genes: [832, 0.1334, 6, 0.6045, 0.7181, 0, 1, 3, 2] -> Acuracia: 90.2%, Precisao: 80.6%, Recall: 80.8%, Media: 83.6%
+Genes: [105, 0.095, 7, 0.644, 0.5481, 2, 1, 1, 3] -> Acuracia: 80.5%, Precisao: 65.4%, Recall: 70.6%, Media: 71.6%
+
+Melhores Genes: [652, 0.2903, 11, 0.6034, 0.842, 0, 2, 1, 4] -> Acuracia: 99.0%, Precisao: 98.7%, Recall: 97.4%, Media: 98.4%
+
+3* Populacao:
+Genes: [606, 0.0365, 11, 0.8065, 0.842, 3, 3, 1, 2] -> Acuracia: 91.6%, Precisao: 83.3%, Recall: 83.1%, Media: 85.8%
+Genes: [677, 0.2488, 12, 0.7857, 0.791, 1, 3, 1, 6] -> Acuracia: 98.1%, Precisao: 97.0%, Recall: 95.1%, Media: 96.7%
+Genes: [677, 0.2488, 11, 0.981, 0.974, 1, 3, 1, 10] -> Acuracia: 97.4%, Precisao: 95.7%, Recall: 93.9%, Media: 95.6%
+Genes: [487, 0.2824, 12, 0.7796, 0.791, 1, 3, 2, 6] -> Acuracia: 98.1%, Precisao: 97.0%, Recall: 95.4%, Media: 96.8%
+Genes: [505, 0.2824, 12, 0.6034, 0.791, 1, 0, 1, 2] -> Acuracia: 98.2%, Precisao: 97.2%, Recall: 95.7%, Media: 97.0%
+Genes: [677, 0.2488, 5, 0.8065, 0.5455, 0, 2, 1, 10] -> Acuracia: 88.5%, Precisao: 77.0%, Recall: 77.8%, Media: 80.8%
+Genes: [487, 0.1992, 12, 0.7796, 0.5455, 3, 3, 2, 1] -> Acuracia: 95.4%, Precisao: 91.6%, Recall: 89.9%, Media: 92.2%
+Genes: [487, 0.2824, 11, 0.7796, 0.974, 1, 0, 2, 10] -> Acuracia: 97.9%, Precisao: 96.6%, Recall: 95.0%, Media: 96.5%
+Genes: [677, 0.2903, 12, 0.8065, 0.5347, 1, 3, 1, 4] -> Acuracia: 98.0%, Precisao: 96.8%, Recall: 95.1%, Media: 96.6%
+Genes: [652, 0.2488, 11, 0.6034, 0.791, 0, 2, 1, 6] -> Acuracia: 98.9%, Precisao: 98.4%, Recall: 97.1%, Media: 98.1%
+
+Melhores Genes: [652, 0.2903, 11, 0.6034, 0.842, 0, 2, 1, 4] -> Acuracia: 99.0%, Precisao: 98.7%, Recall: 97.4%, Media: 98.4%
+
+4* Populacao:
+Genes: [652, 0.2488, 11, 0.7362, 0.791, 1, 0, 1, 6] -> Acuracia: 98.2%, Precisao: 97.2%, Recall: 95.7%, Media: 97.0%
+Genes: [677, 0.2488, 12, 0.7857, 0.791, 0, 3, 1, 6] -> Acuracia: 99.0%, Precisao: 98.7%, Recall: 97.4%, Media: 98.4%
+Genes: [505, 0.2488, 12, 0.7857, 0.791, 1, 3, 1, 3] -> Acuracia: 98.0%, Precisao: 96.8%, Recall: 95.0%, Media: 96.6%
+Genes: [677, 0.2824, 12, 0.8087, 0.9099, 1, 0, 1, 2] -> Acuracia: 98.2%, Precisao: 97.3%, Recall: 95.5%, Media: 97.0%
+Genes: [289, 0.2824, 8, 0.6034, 0.8597, 1, 0, 2, 2] -> Acuracia: 94.8%, Precisao: 90.1%, Recall: 89.2%, Media: 91.3%
+Genes: [505, 0.2824, 12, 0.7796, 0.9447, 1, 0, 1, 10] -> Acuracia: 97.9%, Precisao: 96.7%, Recall: 95.0%, Media: 96.5%
+Genes: [487, 0.2824, 12, 0.8065, 0.9922, 1, 0, 1, 4] -> Acuracia: 98.1%, Precisao: 97.1%, Recall: 95.4%, Media: 96.9%
+Genes: [677, 0.2903, 11, 0.7796, 0.5347, 1, 3, 2, 10] -> Acuracia: 97.8%, Precisao: 96.3%, Recall: 94.8%, Media: 96.3%
+Genes: [750, 0.0618, 12, 0.6034, 0.791, 1, 3, 1, 6] -> Acuracia: 97.2%, Precisao: 95.4%, Recall: 93.2%, Media: 95.2%
+Genes: [505, 0.2824, 12, 0.6085, 0.791, 1, 0, 2, 2] -> Acuracia: 98.2%, Precisao: 97.2%, Recall: 95.6%, Media: 97.0%
+
+Melhores Genes: [652, 0.2903, 11, 0.6034, 0.842, 0, 2, 1, 4] -> Acuracia: 99.0%, Precisao: 98.7%, Recall: 97.4%, Media: 98.4%
+
+5* Populacao:
+Genes: [487, 0.2824, 12, 0.8065, 0.9922, 1, 0, 1, 2] -> Acuracia: 98.2%, Precisao: 97.3%, Recall: 95.4%, Media: 97.0%
+Genes: [505, 0.2824, 12, 0.6085, 0.791, 1, 0, 2, 4] -> Acuracia: 98.2%, Precisao: 97.0%, Recall: 95.6%, Media: 96.9%
+Genes: [531, 0.2488, 12, 0.7796, 0.791, 1, 3, 1, 3] -> Acuracia: 98.1%, Precisao: 97.2%, Recall: 95.3%, Media: 96.9%
+Genes: [215, 0.2824, 12, 0.7857, 0.9447, 1, 0, 1, 10] -> Acuracia: 97.7%, Precisao: 96.2%, Recall: 94.4%, Media: 96.1%
+Genes: [677, 0.2488, 12, 0.5758, 0.791, 5, 0, 3, 6] -> Acuracia: 94.3%, Precisao: 89.0%, Recall: 88.4%, Media: 90.5%
+Genes: [652, 0.2824, 11, 0.7362, 0.9099, 1, 0, 1, 2] -> Acuracia: 98.2%, Precisao: 97.3%, Recall: 95.6%, Media: 97.0%
+Genes: [652, 0.2824, 12, 0.6085, 0.791, 1, 0, 2, 6] -> Acuracia: 98.2%, Precisao: 97.1%, Recall: 95.7%, Media: 97.0%
+Genes: [505, 0.2488, 11, 0.7362, 0.791, 1, 0, 1, 2] -> Acuracia: 98.1%, Precisao: 97.1%, Recall: 95.4%, Media: 96.9%
+Genes: [505, 0.2824, 12, 0.6085, 0.9922, 1, 0, 1, 4] -> Acuracia: 98.2%, Precisao: 97.3%, Recall: 95.7%, Media: 97.1%
+Genes: [487, 0.2824, 12, 0.8065, 0.791, 1, 0, 2, 2] -> Acuracia: 98.1%, Precisao: 97.1%, Recall: 95.3%, Media: 96.8%
+
+Melhores Genes: [652, 0.2903, 11, 0.6034, 0.842, 0, 2, 1, 4] -> Acuracia: 99.0%, Precisao: 98.7%, Recall: 97.4%, Media: 98.4%
+
+6* Populacao:
+Genes: [505, 0.2824, 5, 0.6085, 0.791, 1, 0, 1, 4] -> Acuracia: 87.9%, Precisao: 76.0%, Recall: 77.2%, Media: 80.0%
+Genes: [505, 0.2488, 11, 0.7362, 0.9922, 1, 0, 1, 2] -> Acuracia: 98.3%, Precisao: 97.4%, Recall: 95.7%, Media: 97.1%
+Genes: [505, 0.2488, 11, 0.6085, 0.9922, 1, 0, 1, 8] -> Acuracia: 98.2%, Precisao: 97.3%, Recall: 95.7%, Media: 97.1%
+Genes: [590, 0.2824, 8, 0.7362, 0.791, 1, 0, 1, 4] -> Acuracia: 97.7%, Precisao: 96.2%, Recall: 94.8%, Media: 96.2%
+Genes: [487, 0.2824, 6, 0.8065, 0.5501, 2, 0, 1, 2] -> Acuracia: 91.1%, Precisao: 82.3%, Recall: 82.4%, Media: 85.1%
+Genes: [531, 0.2488, 12, 0.7796, 0.8247, 1, 3, 1, 5] -> Acuracia: 98.1%, Precisao: 97.0%, Recall: 95.2%, Media: 96.8%
+Genes: [487, 0.2824, 6, 0.8065, 0.79, 1, 3, 1, 8] -> Acuracia: 91.5%, Precisao: 83.1%, Recall: 83.2%, Media: 85.8%
+Genes: [531, 0.2488, 12, 0.7796, 0.9592, 1, 0, 1, 2] -> Acuracia: 98.0%, Precisao: 97.0%, Recall: 95.0%, Media: 96.7%
+Genes: [505, 0.2824, 12, 0.6085, 0.9922, 1, 0, 1, 4] -> Acuracia: 98.2%, Precisao: 97.3%, Recall: 95.7%, Media: 97.1%
+Genes: [505, 0.2824, 12, 0.6085, 0.791, 1, 0, 2, 4] -> Acuracia: 98.2%, Precisao: 97.0%, Recall: 95.6%, Media: 96.9%
+
+Melhores Genes: [652, 0.2903, 11, 0.6034, 0.842, 0, 2, 1, 4] -> Acuracia: 99.0%, Precisao: 98.7%, Recall: 97.4%, Media: 98.4%
+
+7* Populacao:
+Genes: [505, 0.2488, 11, 0.6085, 0.9922, 1, 0, 1, 2] -> Acuracia: 98.3%, Precisao: 97.5%, Recall: 95.8%, Media: 97.2%
+Genes: [505, 0.2488, 11, 0.7362, 0.5015, 1, 0, 1, 8] -> Acuracia: 97.8%, Precisao: 96.4%, Recall: 94.8%, Media: 96.3%
+Genes: [505, 0.2824, 11, 0.6085, 0.9922, 1, 0, 1, 4] -> Acuracia: 98.3%, Precisao: 97.4%, Recall: 95.9%, Media: 97.2%
+Genes: [505, 0.2488, 12, 0.7362, 0.9922, 1, 0, 1, 3] -> Acuracia: 98.1%, Precisao: 97.2%, Recall: 95.4%, Media: 96.9%
+Genes: [590, 0.2824, 8, 0.7362, 0.791, 1, 0, 1, 4] -> Acuracia: 97.7%, Precisao: 96.2%, Recall: 94.8%, Media: 96.2%
+Genes: [505, 0.2004, 12, 0.5247, 0.791, 1, 2, 2, 4] -> Acuracia: 98.1%, Precisao: 97.0%, Recall: 95.3%, Media: 96.8%
+Genes: [505, 0.2488, 11, 0.7362, 0.9922, 1, 0, 1, 2] -> Acuracia: 98.3%, Precisao: 97.4%, Recall: 95.7%, Media: 97.1%
+Genes: [505, 0.0387, 12, 0.6085, 0.9922, 1, 0, 1, 4] -> Acuracia: 93.1%, Precisao: 86.7%, Recall: 85.5%, Media: 88.3%
+Genes: [531, 0.2488, 7, 0.7796, 0.791, 1, 0, 1, 4] -> Acuracia: 94.9%, Precisao: 90.2%, Recall: 89.1%, Media: 91.3%
+Genes: [590, 0.2824, 12, 0.7362, 0.9592, 1, 0, 1, 2] -> Acuracia: 98.3%, Precisao: 97.5%, Recall: 95.8%, Media: 97.2%
+
+Melhores Genes: [652, 0.2903, 11, 0.6034, 0.842, 0, 2, 1, 4] -> Acuracia: 99.0%, Precisao: 98.7%, Recall: 97.4%, Media: 98.4%
+
+8* Populacao:
+Genes: [505, 0.2488, 12, 0.7362, 0.9922, 1, 0, 1, 3] -> Acuracia: 98.1%, Precisao: 97.2%, Recall: 95.4%, Media: 96.9%
+Genes: [505, 0.2488, 11, 0.7362, 0.9922, 1, 0, 3, 2] -> Acuracia: 98.0%, Precisao: 96.9%, Recall: 95.1%, Media: 96.7%
+Genes: [590, 0.2824, 11, 0.6085, 0.9592, 5, 0, 1, 2] -> Acuracia: 95.4%, Precisao: 91.3%, Recall: 90.3%, Media: 92.3%
+Genes: [505, 0.2488, 12, 0.7362, 0.9922, 1, 0, 1, 2] -> Acuracia: 98.3%, Precisao: 97.4%, Recall: 95.6%, Media: 97.1%
+Genes: [505, 0.2488, 11, 0.6085, 0.9922, 5, 0, 1, 4] -> Acuracia: 94.6%, Precisao: 89.6%, Recall: 88.8%, Media: 90.9%
+Genes: [505, 0.2824, 11, 0.6085, 0.9922, 1, 0, 1, 2] -> Acuracia: 98.4%, Precisao: 97.5%, Recall: 96.1%, Media: 97.3%
+Genes: [505, 0.2488, 11, 0.7362, 0.9922, 1, 0, 1, 4] -> Acuracia: 98.3%, Precisao: 97.4%, Recall: 95.7%, Media: 97.1%
+Genes: [505, 0.2824, 11, 0.6085, 0.9922, 1, 0, 1, 2] -> Acuracia: 98.4%, Precisao: 97.5%, Recall: 96.1%, Media: 97.3%
+Genes: [505, 0.2824, 12, 0.7362, 0.9592, 1, 0, 1, 2] -> Acuracia: 98.3%, Precisao: 97.5%, Recall: 95.8%, Media: 97.2%
+Genes: [161, 0.2488, 12, 0.7362, 0.9922, 1, 0, 1, 3] -> Acuracia: 97.3%, Precisao: 95.6%, Recall: 93.6%, Media: 95.5%
+
+Melhores Genes: [652, 0.2903, 11, 0.6034, 0.842, 0, 2, 1, 4] -> Acuracia: 99.0%, Precisao: 98.7%, Recall: 97.4%, Media: 98.4%
+
+9* Populacao:
+Genes: [505, 0.2824, 11, 0.7362, 0.9922, 1, 0, 1, 2] -> Acuracia: 98.2%, Precisao: 97.4%, Recall: 95.6%, Media: 97.1%
+Genes: [505, 0.2488, 12, 0.6085, 0.6749, 1, 0, 1, 2] -> Acuracia: 98.3%, Precisao: 97.5%, Recall: 95.9%, Media: 97.2%
+Genes: [505, 0.2488, 12, 0.7362, 0.9922, 1, 0, 1, 2] -> Acuracia: 98.3%, Precisao: 97.4%, Recall: 95.6%, Media: 97.1%
+Genes: [505, 0.2488, 11, 0.7362, 0.9922, 1, 0, 1, 4] -> Acuracia: 98.3%, Precisao: 97.4%, Recall: 95.7%, Media: 97.1%
+Genes: [505, 0.2488, 12, 0.7362, 0.9922, 1, 0, 3, 3] -> Acuracia: 98.0%, Precisao: 96.9%, Recall: 95.0%, Media: 96.6%
+Genes: [505, 0.2488, 11, 0.7362, 0.9922, 1, 0, 1, 7] -> Acuracia: 98.2%, Precisao: 97.2%, Recall: 95.4%, Media: 96.9%
+Genes: [407, 0.2824, 12, 0.6085, 0.9592, 5, 0, 1, 2] -> Acuracia: 94.8%, Precisao: 90.0%, Recall: 89.2%, Media: 91.3%
+Genes: [505, 0.2824, 11, 0.7362, 0.6464, 1, 0, 1, 7] -> Acuracia: 98.1%, Precisao: 96.9%, Recall: 95.5%, Media: 96.8%
+Genes: [505, 0.2488, 11, 0.9286, 0.9922, 1, 0, 2, 2] -> Acuracia: 97.7%, Precisao: 96.4%, Recall: 94.4%, Media: 96.1%
+Genes: [505, 0.2824, 12, 0.7362, 0.9922, 1, 0, 1, 2] -> Acuracia: 98.3%, Precisao: 97.5%, Recall: 95.8%, Media: 97.2%
+
+Melhores Genes: [652, 0.2903, 11, 0.6034, 0.842, 0, 2, 1, 4] -> Acuracia: 99.0%, Precisao: 98.7%, Recall: 97.4%, Media: 98.4%
+
+10* Populacao:
+Genes: [505, 0.2488, 12, 0.7362, 0.9922, 1, 0, 2, 3] -> Acuracia: 98.1%, Precisao: 97.2%, Recall: 95.2%, Media: 96.8%
+Genes: [505, 0.2488, 12, 0.6085, 0.6749, 1, 2, 3, 2] -> Acuracia: 98.1%, Precisao: 97.0%, Recall: 95.2%, Media: 96.8%
+Genes: [505, 0.2824, 11, 0.7362, 0.6464, 1, 0, 1, 4] -> Acuracia: 98.1%, Precisao: 97.0%, Recall: 95.5%, Media: 96.9%
+Genes: [505, 0.2488, 11, 0.7362, 0.9922, 1, 3, 1, 7] -> Acuracia: 98.0%, Precisao: 96.8%, Recall: 95.3%, Media: 96.7%
+Genes: [505, 0.2824, 11, 0.7362, 0.9922, 1, 0, 1, 2] -> Acuracia: 98.2%, Precisao: 97.4%, Recall: 95.6%, Media: 97.1%
+Genes: [505, 0.1255, 11, 0.7362, 0.9922, 1, 0, 1, 7] -> Acuracia: 97.6%, Precisao: 96.3%, Recall: 94.2%, Media: 96.0%
+Genes: [505, 0.2935, 11, 0.7362, 0.9922, 1, 0, 1, 2] -> Acuracia: 98.3%, Precisao: 97.4%, Recall: 95.6%, Media: 97.1%
+Genes: [505, 0.2824, 11, 0.7362, 0.9922, 1, 0, 1, 4] -> Acuracia: 98.1%, Precisao: 97.1%, Recall: 95.4%, Media: 96.9%
+Genes: [512, 0.2824, 12, 0.7362, 0.9922, 1, 0, 1, 2] -> Acuracia: 98.3%, Precisao: 97.5%, Recall: 95.8%, Media: 97.2%
+Genes: [505, 0.2488, 11, 0.7362, 0.9922, 1, 3, 3, 2] -> Acuracia: 98.1%, Precisao: 96.9%, Recall: 95.3%, Media: 96.8%
+
+Melhores Genes: [652, 0.2903, 11, 0.6034, 0.842, 0, 2, 1, 4] -> Acuracia: 99.0%, Precisao: 98.7%, Recall: 97.4%, Media: 98.4%
+
+
+Performance no Teste -> Acuracia: 99.0%, Precisao: 98.7%, Recall: 97.3%, Media: 98.3%
